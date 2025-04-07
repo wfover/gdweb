@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "types": [
+      "@cloudflare/workers-types",
+      "vite/client"
+    ],
+    "strict": true,
+    "outDir": "./dist/server"
+  },
+  "include": ["*.ts", "./src/**/*.ts"]
+}
